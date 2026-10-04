@@ -68,7 +68,7 @@ impl Scanner {
                     ('>', false) => TokenType::Greater,
                     ('<', true) => TokenType::LessEqual,
                     ('<', false) => TokenType::Less,
-                    _ => self.error(self.line, "Character is not part of any token."),
+                   _ => unreachable!(),
                 };
                 self.add(t);
             }
@@ -97,7 +97,7 @@ impl Scanner {
 
             //identifier
             c if c.is_ascii_alphabetic() || c == '_' => self.identifier(),
-            _ => self.error(self.line, "Unexpected character, Not a token."),
+           _ => self.error(self.line, "Character is not part of any token."),
         }
     }
 
