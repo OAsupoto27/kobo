@@ -1,0 +1,12 @@
+[33m7775e0c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m Kobo starter
+ src/scanner.rs | 4 [32m++[m[31m--[m
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[33m25c6411[m Kobo starter
+ src/scanner.rs | 96 [32m+++++++++++++++++++++++++++++++++++++++++[m[31m-----------------[m
+ 1 file changed, 69 insertions(+), 27 deletions(-)
+[33m6a78753[m Kobo starter
+ src/scanner.rs | 65 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++[m[31m------[m
+ 1 file changed, 59 insertions(+), 6 deletions(-)
+[33m314d88d[m Kobo Starter
+ src/scanner.rs | 106 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ 1 file changed, 106 insertions(+)
